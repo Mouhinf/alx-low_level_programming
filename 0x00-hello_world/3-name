@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=main.c && gcc -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE -o cisfun
+export CFILE=main.c; echo '#include <stdio.h>\nint main(void) {printf("Hello, world!\\n");return 0;}' > $CFILE; ./3-name
