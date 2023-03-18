@@ -1,6 +1,0 @@
-#!/bin/bash
-if [ -z "$CFILE" ]; then
-  echo "CFILE variable is not set"
-  exit 1
-fi
-cpp -o c $CFILE
