@@ -3,11 +3,10 @@
 #include <string.h>
 #include <stdio.h>
 
-
 /**
- * main - check the code
+ * print_alphabet - Prints the lowercase alphabet followed by a new line
  *
- * Return: Always 0.
+ * Return: void
  */
 void print_to_98(int n)
 {
