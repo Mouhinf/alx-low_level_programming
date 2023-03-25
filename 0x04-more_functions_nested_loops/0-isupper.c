@@ -2,11 +2,11 @@
 
 
 /**
- * main - check the code.
+ * checks for uppercase character
  *
- * Return: Always 0.
+ * Return: 0 or 1
  */
 int _isupper(int c)
 {
 	return (c >= 'A' && c <= 'Z');
-}	
+}
