@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - Updates the value of andjnjndsnj .
+ * reset_to_98 - Updates the value of an integer variable to 98.
  *
- * @ne take the pointer int
+ * @n: Pointer to the integer variable to be updated.
  */
 void reset_to_98(int *n)
 {
