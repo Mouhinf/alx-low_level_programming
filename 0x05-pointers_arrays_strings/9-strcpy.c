@@ -1,4 +1,4 @@
-#include "man.h"
+#include "main.h"
 
 /**
  * _strcpy - copies the string pointed to by src, including the terminating null byte,
@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		desc[i] = src[i];
+		dest[i] = src[i];
 	}
 	dest[i] = '\0';
 	
