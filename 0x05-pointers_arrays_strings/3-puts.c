@@ -6,4 +6,8 @@ void _puts(char *str)
 	{
 		puts(str);	
 	}
+	else
+	{
+		puts("");
+	}
 }
