@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * base10 - power in 10 base
